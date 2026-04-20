@@ -1,21 +1,22 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package Semana03;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+
 /**
  *
  * @author u
  */
-public class ejer01 {
+public class ejer02 {
     public static void main(String[] args) {
         try {
-            BufferedReader br = new BufferedReader(new FileReader("src/Semana03/datos.txt"));
+            BufferedReader br = new BufferedReader(new FileReader("src/Semana03/datos.csv"));
             String linea;
             String separador = ",";
 
