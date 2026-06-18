@@ -85,5 +85,11 @@ public class ejer01 {
             System.out.println("\nNo se elimino!!");
         
         lista.recorrer();
+        
+        
+        //1 motrar
+        //2 agregar
+        //3 buscar
+        //4 eliminar
     }
 }
